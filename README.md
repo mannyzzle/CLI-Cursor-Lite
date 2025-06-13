@@ -1,4 +1,4 @@
-# 🧠 AI-Agent Playground
+# 🧠 AI-Agent (Mini-Cursor)
 
 A sample project that turns a **Google Gemini** LLM into a small coding agent.
 The bundled calculator app is just a sandbox; the real goal is to experiment with **agentic, tool-calling workflows**:
