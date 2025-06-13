@@ -37,7 +37,11 @@ A sample project that turns a Google Gemini (OR any LLM) into a CLI-Cursor-Lite,
 │   └── run_python.py
 ├── main.py                      Agent driver script
 ├── requirements.txt             Dependencies (google-genai, python-dotenv)
-└── .env                         GEMINI_API_KEY (git-ignored)
+├── .env                        GEMINI_API_KEY (git-ignored)
+├── .gitignore
+├── tests.py
+├── README.md
+└── venv   
 
 
 ⸻
