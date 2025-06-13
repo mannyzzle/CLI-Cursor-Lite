@@ -19,6 +19,7 @@ class Calculator:
         if not expression or expression.isspace():
             return None
         tokens = expression.strip().split()
+        print(f"Tokens: {tokens}")  # Debugging line
         return self._evaluate_infix(tokens)
 
     def _evaluate_infix(self, tokens):
@@ -29,8 +30,7 @@ class Calculator:
             if token in self.operators:
                 while (
                     operators
-                    and operators[-1] in self.operators
-                    and self.precedence[operators[-1]] >= self.precedence[token]
+                    and self.precedence.get(operators[-1], 0) >= self.precedence[token]
                 ):
                     self._apply_operator(operators, values)
                 operators.append(token)
