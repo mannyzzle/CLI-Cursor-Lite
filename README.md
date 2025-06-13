@@ -1,7 +1,6 @@
-# 🧠 AI-Agent (Mini-Cursor)
+# 🧠 CLI-Cursor-Lite 
 
-A sample project that turns a **Google Gemini** LLM into a small coding agent.
-The bundled calculator app is just a sandbox; the real goal is to experiment with **agentic, tool-calling workflows**:
+A sample project that turns a Google Gemini (OR any LLM) into a CLI-Cursor-Lite, a lightweight command-line coding agent. The bundled calculator app is only a sandbox—the real purpose is to explore agentic, tool-calling workflows:
 
 1. **Inspect** a codebase (`get_file_content`, `get_files_info`)
 2. **Modify** it in-place (`write_file`)
