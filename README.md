@@ -23,7 +23,7 @@ The bundled calculator app is just a sandbox; the real goal is to experiment wit
 
 ## 🗂️ Project Structure
 
-
+```text
 .
 ├── calculator/                  Sample target app
 │   ├── main.py                  Expression CLI
@@ -43,7 +43,7 @@ The bundled calculator app is just a sandbox; the real goal is to experiment wit
 
 ⸻
 
-## ⚙️ Quick Start
+⚙️ Quick Start
 
 # clone & install
 git clone https://github.com/<you>/ai-agent.git
@@ -70,7 +70,7 @@ The agent will:
 
 ⸻
 
-## 🛠️ How the Agent Works
+🛠️ How the Agent Works
 
 flowchart TD
   A[User prompt] --> B[Gemini LLM]
@@ -85,7 +85,7 @@ flowchart TD
 
 ⸻
 
-## - Extending The Sample -
+- Extending The Sample -
 
 	•	Harder bugs – e.g. division-by-zero, parentheses, floating-point edge cases
 	•	Refactor – ask the agent to extract helpers or add logging
@@ -94,13 +94,7 @@ flowchart TD
 	•	Additional tools – git commits, HTTP fetch, database queries
 	•	Different codebases – clone any project, commit first, let the agent hack
 
-
 ⚠️ Safety: This agent can read & write files and run Python.
 Always sandbox, use a throwaway repo, and commit before experimenting.
 
 ⸻
-
-## 📚 Resources
-	•	Gemini Function-Calling Docs → https://ai.google.dev/gemini-api/docs/function-calling
-	•	LangChain / CrewAI – higher-level agent tooling
-
