@@ -97,7 +97,7 @@ flowchart TD
 	•	Additional tools – git commits, HTTP fetch, database queries
 	•	Different codebases – clone any project, commit first, let the agent hack
 
-⚠️ Safety: This agent can read & write files and run Python.
+⚠ Safety: This agent can read & write files and run Python.
 Always sandbox, use a throwaway repo, and commit before experimenting.
 
 ⸻
